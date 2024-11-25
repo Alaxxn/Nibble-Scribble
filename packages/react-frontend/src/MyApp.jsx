@@ -29,7 +29,6 @@ function MyApp() {
   }
 
   function postUser(person) {
-    console.log(JSON.stringify(person));
     return fetch(`${import.meta.env.VITE_BACKEND_URL}/users`, {
       method: "POST",
       headers: {

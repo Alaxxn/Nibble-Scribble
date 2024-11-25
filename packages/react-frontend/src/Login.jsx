@@ -12,6 +12,12 @@ function Login(props) {
 
   const navigate = useNavigate();
 
+  function handleKeyDown(event) {
+    if (event.key === "Enter") {
+      submitForm();
+    }
+  }
+
   function handleChange(event) {
     const { name, value } = event.target;
     setPerson((prevPerson) => ({
@@ -24,9 +30,10 @@ function Login(props) {
     props
       .handleLogin(person)
       .then((res) => {
-        localStorage.setItem('username', person.name);
-        localStorage.setItem('token', res.token);
-        navigate("/main");})
+        localStorage.setItem("username", person.name);
+        localStorage.setItem("token", res.token);
+        navigate("/main");
+      })
       .catch((error) => {
         console.error("Login failed:", error);
         setLoginError(true); // Set login error state
@@ -59,6 +66,7 @@ function Login(props) {
           id="password"
           value={person.password}
           onChange={handleChange}
+          onKeyDown={handleKeyDown}
           className="form-input"
           placeholder="password"
         />

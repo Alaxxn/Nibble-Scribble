@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.96 16.1">
+  <g id="c" data-name="Save">
+    <g>
+      <path d="M.25,2.3v12.33c0,.67.55,1.22,1.22,1.22h13.02c.67,0,1.22-.55,1.22-1.22V4.32c0-.29-.1-.58-.3-.8l-2.45-2.85c-.23-.27-.57-.43-.93-.43H2.3C1.17.25.25,1.17.25,2.3Z" fill="#95d7e5" stroke="#231f20" stroke-miterlimit="10" stroke-width=".5"/>
+      <path d="M2.75.25l.08,3.6c0,.25.21.46.47.46h7.72l.07-4.06H2.75Z" fill="#faf39f" stroke="#231f20" stroke-miterlimit="10" stroke-width=".5"/>
+      <path d="M2.39,8.04l9.17-.15c.53,0,.96.42.96.94v5.4H2.58c-.49,0-.88-.4-.86-.89l.14-4.78c0-.29.24-.52.54-.53Z" fill="#faf39f" stroke="#231f20" stroke-miterlimit="10" stroke-width=".5"/>
+      <rect x="8.51" y=".93" width="1.44" height="2.68" fill="#e0d992" stroke-width="0"/>
+    </g>
+  </g>
+</svg>
